@@ -6,7 +6,7 @@ public class Grades {
         Scanner sc = new Scanner(System.in);
         int count;
        
-       
+        System.out.println("welcome to the grade card system");
         System.out.println("enter number of subjects");
         count = sc.nextInt();
          int marks[] = new int[count];
