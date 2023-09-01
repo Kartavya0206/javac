@@ -67,6 +67,7 @@ public class Grades {
               sum +=  gradepoint[i] * credits[i];
             }
             ans = (float)sum/totalcredits;
+	    System.out.println("your cgpa is :")
             System.out.println(ans);
 
        
